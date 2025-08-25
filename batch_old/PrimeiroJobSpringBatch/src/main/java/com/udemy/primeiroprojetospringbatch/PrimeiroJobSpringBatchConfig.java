@@ -20,6 +20,7 @@ public class PrimeiroJobSpringBatchConfig {
 	private final JobBuilderFactory jobBuilderFactory;
 	private final StepBuilderFactory stepBuilderFactory;
 
+	@Autowired
 	public PrimeiroJobSpringBatchConfig(JobBuilderFactory jobBuilderFactory, StepBuilderFactory stepBuilderFactory) {
 		this.jobBuilderFactory = jobBuilderFactory;
 		this.stepBuilderFactory = stepBuilderFactory;
@@ -37,6 +38,7 @@ public class PrimeiroJobSpringBatchConfig {
 		return stepBuilderFactory
 				.get("imprimeOlaStep")
 				.tasklet(new Tasklet() {
+
 					@Override
 					public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
 						System.out.println("Olá, mundo!");

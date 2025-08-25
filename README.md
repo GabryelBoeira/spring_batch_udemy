@@ -16,5 +16,5 @@ Este curso é um guia completo sobre Spring Batch, um poderoso framework para o 
 
 Com o objetivo de gerar manutenção de códigos legados neste curso foi separado o código em dois momentos:
 
-- batch_old: Representa a versão anterior a Spring Batch 5.0.
-- batch_new: Representa o código para versão superior a Spring Batch 5.0
+- [batch_old](https://github.com/GabryelBoeira/spring_batch_udemy/tree/main/batch_old): Representa a versão anterior a Spring Batch 5.0.
+- [batch_new](https://github.com/GabryelBoeira/spring_batch_udemy/tree/main/batch_new): Representa o código para versão superior a Spring Batch 5.0

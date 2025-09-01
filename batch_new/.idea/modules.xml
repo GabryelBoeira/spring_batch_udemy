@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/spring_batch_udemy.iml" filepath="$PROJECT_DIR$/.idea/spring_batch_udemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/batch_new.iml" filepath="$PROJECT_DIR$/.idea/batch_new.iml" />
     </modules>
   </component>
 </project>

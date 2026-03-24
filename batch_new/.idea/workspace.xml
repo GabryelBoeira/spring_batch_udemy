@@ -18,23 +18,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99f36394-e294-438c-9893-e03ed60486b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/batch_new.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiroprojeto/src/main/java/com/gabryel/spring/batch/BatchConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../batch_old/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../batch_old/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../batch_old/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/spring_batch_udemy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/primeiroprojeto/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/primeiroprojeto/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="99f36394-e294-438c-9893-e03ed60486b1" name="Changes" comment="Refatora arquivos `.idea` e adiciona configuração de batch.&#10;&#10;Reorganizados arquivos de metadados do IntelliJ para melhorar a estrutura e configuração do projeto. Adicionada uma nova configuração para um job batch em `BatchConfig.java` e ajustado o `application.yml` para habilitar o job como padrão.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,54 +58,54 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GabryelBoeira"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GabryelBoeira&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GabryelBoeira/spring_batch_udemy.git",
-    "accountId": "42c0507f-4a83-4278-b898-67847b3b394f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GabryelBoeira/spring_batch_udemy.git&quot;,
+    &quot;accountId&quot;: &quot;42c0507f-4a83-4278-b898-67847b3b394f&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="324rzdx6soFnR1vPyTRPHK7TbsT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build primeiroprojeto.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.PrimeiroprojetoApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/gabryel/Documents/github/spring_batch_udemy/batch_old",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build primeiroprojeto.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.PrimeiroprojetoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabryel/Documents/github/spring_batch_udemy/batch_old&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AIAssistantPromptsLibrary&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="PrimeiroprojetoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="primeiroprojeto.main" />
@@ -155,7 +140,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Simplify and reorganize `.idea` files; add batch job config.&#10;&#10;Reorganized `.idea` metadata files to streamline project structure and configuration. Introduced a new batch job configuration in `BatchConfig.java` and updated `application.yml` to enable the job by default." />
-    <option name="LAST_COMMIT_MESSAGE" value="Simplify and reorganize `.idea` files; add batch job config.&#10;&#10;Reorganized `.idea` metadata files to streamline project structure and configuration. Introduced a new batch job configuration in `BatchConfig.java` and updated `application.yml` to enable the job by default." />
+    <MESSAGE value="Refatora arquivos `.idea` e adiciona configuração de batch.&#10;&#10;Reorganizados arquivos de metadados do IntelliJ para melhorar a estrutura e configuração do projeto. Adicionada uma nova configuração para um job batch em `BatchConfig.java` e ajustado o `application.yml` para habilitar o job como padrão." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatora arquivos `.idea` e adiciona configuração de batch.&#10;&#10;Reorganizados arquivos de metadados do IntelliJ para melhorar a estrutura e configuração do projeto. Adicionada uma nova configuração para um job batch em `BatchConfig.java` e ajustado o `application.yml` para habilitar o job como padrão." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
